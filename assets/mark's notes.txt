@@ -1,0 +1,28 @@
+  group_assignments GET    /group_assignments(.:format)          group_assignments#index
+                      POST   /group_assignments(.:format)          group_assignments#create
+ new_group_assignment GET    /group_assignments/new(.:format)      group_assignments#new
+edit_group_assignment GET    /group_assignments/:id/edit(.:format) group_assignments#edit
+     group_assignment GET    /group_assignments/:id(.:format)      group_assignments#show
+                      PUT    /group_assignments/:id(.:format)      group_assignments#update
+                      DELETE /group_assignments/:id(.:format)      group_assignments#destroy
+               groups GET    /groups(.:format)                     groups#index
+                      POST   /groups(.:format)                     groups#create
+            new_group GET    /groups/new(.:format)                 groups#new
+           edit_group GET    /groups/:id/edit(.:format)            groups#edit
+                group GET    /groups/:id(.:format)                 groups#show
+                      PUT    /groups/:id(.:format)                 groups#update
+                      DELETE /groups/:id(.:format)                 groups#destroy
+                users GET    /users(.:format)                      users#index
+                      POST   /users(.:format)                      users#create
+             new_user GET    /users/new(.:format)                  users#new
+            edit_user GET    /users/:id/edit(.:format)             users#edit
+                 user GET    /users/:id(.:format)                  users#show
+                      PUT    /users/:id(.:format)                  users#update
+                      DELETE /users/:id(.:format)                  users#destroy
+[1:45:50 AM] Mark Hetherington: i have put the server online
+[1:45:59 AM] Mark Hetherington: not fully done or close to done
+[1:46:08 AM] Mark Hetherington: http://mighty-beyond-5329.herokuapp.com/users
+[1:46:16 AM] Mark Hetherington: http://mighty-beyond-5329.herokuapp.com/groups
+[1:46:46 AM] Mark Hetherington: http://mighty-beyond-5329.herokuapp.com/group_assignments
+[1:48:55 AM] Mark Hetherington: an example of the json
+[1:48:55 AM] Mark Hetherington: http://mighty-beyond-5329.herokuapp.com/users/1.json
